@@ -1,6 +1,0 @@
-{
-  "environment": "Development",
-  "BEAN_BOT_TOKEN": "NjgwNjI1MjY4MzA5NzUzOTUy.XlCnrQ.RprXUfTQ64ADQDmYX_QQPeKTSXI",
-  "StorageQueueConnectionString": "UseDevelopmentStorage=true",
-  "AzureWebJobsServiceBus": "Endpoint=sb://liquetbots.servicebus.windows.net/;SharedAccessKeyName=queue_access_policy;SharedAccessKey=nm09X/Whvg6I/3ZhOBHlfJIitgd9kR3Vh/cBlzw5uIo=;"
-}
