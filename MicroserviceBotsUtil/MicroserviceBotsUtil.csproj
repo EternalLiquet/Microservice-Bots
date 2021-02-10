@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>LQ.Microservice.Discord.Util.Classes</PackageId>
+    <Authors>Liquet</Authors>
+    <Product>Utility Classes For Discord.NET Microservices Development</Product>
+    <Company>LQ LLC</Company>
+    <Version>1.0.3</Version>
+    <RepositoryUrl>https://github.com/EternalLiquet/Microservice-Bots</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>DiscordNET, Discord, Utility, Microservices</PackageTags>
+    <PackageReleaseNotes>Naming and small updates</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
+    <Summary>A library that turns Discord.NET messages into objects that can be serialized/deserialized to/from JSON.</Summary>
+    <Description>A library that turns Discord.NET messages into objects that can be serialized/deserialized to/from JSON.</Description>
+    <PackageProjectUrl>https://github.com/EternalLiquet/Microservice-Bots/blob/master/README.md</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
