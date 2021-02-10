@@ -5,16 +5,6 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceBotsUtil", "MicroserviceBotsUtil\MicroserviceBotsUtil.csproj", "{E53CF962-EB41-468C-9FC9-7C0CDFF89FC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightBallLambda", "EightBallLambda\EightBallLambda.csproj", "{2C3ABCDC-78DD-4771-98C8-50B14CB5AB10}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightBallLambda.Tests", "EightBallLambda.Tests\EightBallLambda.Tests.csproj", "{5E0032F0-52E6-4EE0-A950-675709C1724D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightBallApiWrapper", "EightBallApiWrapper\EightBallApiWrapper.csproj", "{BF652BF3-DDAA-4719-B6AE-A821F5F19AD6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EightBallApiWrapper.Tests", "EightBallApiWrapper.Tests\EightBallApiWrapper.Tests.csproj", "{A8114513-D275-4639-9612-16DF8F237AF2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightballExample", "EightballExample\EightballExample.csproj", "{F5E6CB67-BCBF-4823-9BDC-12297F73284E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,26 +15,6 @@ Global
 		{E53CF962-EB41-468C-9FC9-7C0CDFF89FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E53CF962-EB41-468C-9FC9-7C0CDFF89FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E53CF962-EB41-468C-9FC9-7C0CDFF89FC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C3ABCDC-78DD-4771-98C8-50B14CB5AB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C3ABCDC-78DD-4771-98C8-50B14CB5AB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C3ABCDC-78DD-4771-98C8-50B14CB5AB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C3ABCDC-78DD-4771-98C8-50B14CB5AB10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E0032F0-52E6-4EE0-A950-675709C1724D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E0032F0-52E6-4EE0-A950-675709C1724D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E0032F0-52E6-4EE0-A950-675709C1724D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E0032F0-52E6-4EE0-A950-675709C1724D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF652BF3-DDAA-4719-B6AE-A821F5F19AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF652BF3-DDAA-4719-B6AE-A821F5F19AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF652BF3-DDAA-4719-B6AE-A821F5F19AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF652BF3-DDAA-4719-B6AE-A821F5F19AD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8114513-D275-4639-9612-16DF8F237AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8114513-D275-4639-9612-16DF8F237AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8114513-D275-4639-9612-16DF8F237AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8114513-D275-4639-9612-16DF8F237AF2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5E6CB67-BCBF-4823-9BDC-12297F73284E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5E6CB67-BCBF-4823-9BDC-12297F73284E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5E6CB67-BCBF-4823-9BDC-12297F73284E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5E6CB67-BCBF-4823-9BDC-12297F73284E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
